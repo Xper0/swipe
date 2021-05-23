@@ -1,0 +1,30 @@
+.swiper-container {
+  width: 600px;
+  height: 300px;
+  margin: 150px auto;
+  border: 3px solid black;
+  overflow-scrolling: auto;
+
+  .swiper-wrapper{
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    .swiper-wrapper__slide{
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      border: 2px solid red;
+      width: 100%;
+      transform: translate(0);
+
+    }
+    .swiper-wrapper__slide:nth-child(2){
+      transform: translate(610px);
+    }
+  }
+
+}

@@ -1,0 +1,12 @@
+.Swiper-slide {
+  margin: 250px auto;
+  border: 3px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  .Swiper-slide__clock{
+    font-size: 35px;
+    color: cadetblue;
+  }
+}

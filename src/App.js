@@ -1,23 +1,23 @@
-import logo from './logo.svg';
+
 import './App.css';
+import TextArea from "./components/TextArea";
+import Clock from "./components/Clock";
+import {Swiper, SwiperSlide} from "swiper/react";
+import 'swiper/swiper-bundle.css';
+import {useEffect} from "react";
+
 
 function App() {
+    const slides = [<TextArea />, <Clock />]
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Swiper >
+         {slides.map((item,index) =>
+             <SwiperSlide
+                 key={index}>{item}
+             </SwiperSlide>)}
+      </Swiper>
     </div>
   );
 }
