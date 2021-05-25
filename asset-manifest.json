@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/swipe/static/css/main.9eb3d6ee.chunk.css",
+    "main.js": "/swipe/static/js/main.70d886db.chunk.js",
+    "main.js.map": "/swipe/static/js/main.70d886db.chunk.js.map",
+    "runtime-main.js": "/swipe/static/js/runtime-main.fde9baa2.js",
+    "runtime-main.js.map": "/swipe/static/js/runtime-main.fde9baa2.js.map",
+    "static/css/2.aaf2f526.chunk.css": "/swipe/static/css/2.aaf2f526.chunk.css",
+    "static/js/2.dfdbcde9.chunk.js": "/swipe/static/js/2.dfdbcde9.chunk.js",
+    "static/js/2.dfdbcde9.chunk.js.map": "/swipe/static/js/2.dfdbcde9.chunk.js.map",
+    "static/js/3.9dd5c421.chunk.js": "/swipe/static/js/3.9dd5c421.chunk.js",
+    "static/js/3.9dd5c421.chunk.js.map": "/swipe/static/js/3.9dd5c421.chunk.js.map",
+    "index.html": "/swipe/index.html",
+    "static/css/2.aaf2f526.chunk.css.map": "/swipe/static/css/2.aaf2f526.chunk.css.map",
+    "static/css/main.9eb3d6ee.chunk.css.map": "/swipe/static/css/main.9eb3d6ee.chunk.css.map",
+    "static/js/2.dfdbcde9.chunk.js.LICENSE.txt": "/swipe/static/js/2.dfdbcde9.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.fde9baa2.js",
+    "static/css/2.aaf2f526.chunk.css",
+    "static/js/2.dfdbcde9.chunk.js",
+    "static/css/main.9eb3d6ee.chunk.css",
+    "static/js/main.70d886db.chunk.js"
+  ]
+}
